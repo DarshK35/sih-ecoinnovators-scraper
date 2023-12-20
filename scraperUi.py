@@ -52,7 +52,7 @@ app.layout = html.Div([
 		interval = 2000,
 		n_intervals = 0
 	)
-])
+], id = "main-content")
 
 # Function to dynamically add and remove text boxes
 @app.callback([
